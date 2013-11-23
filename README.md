@@ -6,6 +6,10 @@
 This app was meant to be used at the point of sale of Firefox OS devices. It will display the device hardware information and a short animated intro of the Foxy.
 Instead of keeping the device with the screen turned off, we provide a charming solution that will attract buyers for sure.
 
+##Live Demo
+
+http://marcussaad.com/whoami/foxy.html
+
 ###Supported Devices
 
 Right now, it supports Alcatel One Touch Fire and LG Fireweb. Support for new devices will be added as they are released. Feel free to contribute to us.
