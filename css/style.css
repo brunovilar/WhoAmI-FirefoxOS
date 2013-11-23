@@ -1,0 +1,43 @@
+.background{
+  height: 480px;
+  width: 320px;
+  background: url('../images/background.jpg') 0 0 no-repeat;
+  position: absolute;
+}
+
+.specsbox{
+	background: #FFF;
+	border-radius:25px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	position: relative;
+	top: 30px;
+	left:-350px;
+	height: 350px;
+	width: 234px;
+	font-family: 'Open Sans', sans-serif;
+	color: #4D4E53;
+}
+
+.foxtail{
+	animation: animate-tail 3.75s steps(44) infinite;
+	background: url('../images/foxtail.png') 0 0 no-repeat;
+	width: 156px;
+	height: 156px;
+	top: 150px;
+	left: -350px;
+	position: absolute;
+}
+
+#specsTitle{
+	margin-left:33px;
+	padding-top:20px;
+	font-size: 26px;
+}
+
+@keyframes animate-tail {  
+    0% {background-position: -6864px 0; }
+    100% {background-position: 0 0;}
+}
+
