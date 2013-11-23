@@ -6,8 +6,10 @@
  <meta charset="utf-8"> 
  <script src="js/jquery-1.10.2.min.js"></script>
  <script src="js/foxy-slider.js"></script> 
+ <script src="js/l10n.js"></script> 
  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+ <link rel="prefetch" type="application/l10n" href="locales/locales.ini" />
  <script>
 </script>
  </head>
@@ -15,43 +17,42 @@
 	<div class="background">
 	<div id="foxy" class="foxtail"></div>
         <div id="alcatelSpecs" class="specsbox">
-		<div id="specsTitle">Especificações</div>
+		<div id="specsTitle"><p data-l10n-id="general.specification"></p></div>
 	        <p id="specsLines"> 
 		        <ul>
-			        <li>Firefox OS</li>
-			        <li>Tela touch 3.5" (320x480)</li>
-			        <li>Editor de Fotos</li>
-			        <li>Câmera 3.2MP</li>
-			        <li>Cartão de Memória 2GB(Expansível até 32GB)</li>
-			        <li>Firefox Marketplace</li>
-			        <li>GPS Integrado</li>
-			        <li>3G &amp; Wi-Fi</li>
-			        <li>MP3 &amp; Bluetooth</li>
-			        <li>Rádio FM</li>
+			        <li data-l10n-id="onetouchfire.os"></li>
+			        <li data-l10n-id="onetouchfire.screen"></li>
+			        <li data-l10n-id="onetouchfire.editor"></li>
+			        <li data-l10n-id="onetouchfire.camera"></li>
+			        <li data-l10n-id="onetouchfire.memory"></li>
+			        <li data-l10n-id="onetouchfire.store"></li>
+			        <li data-l10n-id="onetouchfire.gps"></li>
+			        <li data-l10n-id="onetouchfire.connectivity"></li>
+			        <li data-l10n-id="onetouchfire.misc"></li>
+			        <li data-l10n-id="onetouchfire.radio"></li>
 		        </ul>					
 	        </p>
         </div>
         <div id="lgSpecs" class="specsbox">
-            <div id="specsTitle">Especificações</div>
+            <div id="specsTitle"><p data-l10n-id="general.specification"></p></div>
                 <p id="specsLines">
-                    <ul>
-                        <li>Firefox OS</li>
-                        <li>Tela touch 4.0" (320x480)</li>
-                        <li>Editor de Fotos</li>
-                        <li>Câmera de 5.0MP Flash c/ auto-foco</li>
-                        <li>Memória Interna: 2GB</li>
-                        <li>Expansível até 32GB</li>
-                        <li>Firefox Marketplace</li>
-                        <li>GPS Integrado</li>
-                        <li>3.5G  &amp; Wi-Fi</li>
-                        <li>MP3 &amp; Bluetooth</li>
-                        <li>Rádio FM</li>
-                    </ul>
+                        <ul>
+                                <li data-l10n-id="fireweb.os"></li>
+                                <li data-l10n-id="fireweb.screen"></li>
+                                <li data-l10n-id="fireweb.editor"></li>
+                                <li data-l10n-id="fireweb.camera"></li>
+                                <li data-l10n-id="fireweb.memory"></li>
+                                <li data-l10n-id="fireweb.store"></li>
+                                <li data-l10n-id="fireweb.gps"></li>
+                                <li data-l10n-id="fireweb.connectivity"></li>
+                                <li data-l10n-id="fireweb.misc"></li>
+                                <li data-l10n-id="fireweb.radio"></li>
+                        </ul>
                 </p>
 	        </div>
         </div>
         <div id="unsupported" class="specsbox">
-            <div id="specsTitle">Especificações</div>
+            <div id="specsTitle"><p data-l10n-id="general.specification"></p></div>
                 <p id="specsLines">Este dispositivo ainda não é suportado.</p>
 	        </div>
         </div>
