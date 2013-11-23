@@ -1,12 +1,17 @@
 function changeSlide(){
 
-        //LG Fireweb DPI: 16 | Alcatel One Touch Fire DPI: 24
-        var deviceSpecs = (screen.pixelDepth == 16)?'#lgSpecs':'#alcatelSpecs'; 
-        showFox();
-        setTimeout(function(){showSpecs(deviceSpecs);}, 15000);	
-        setTimeout(function(){changeSlide();},35000);
+	var deviceSpecs
+	if(navigator.userAgent.indexOf("LG-D300")>=0){
+		deviceSpecs = '#lgSpecs';
+	} else if(navigator.userAgent.indexOf("ALCATEL ONE TOUCH 4012")>=0)	{
+		deviceSpecs = '#alcatelSpecs';
+	} else {
+		deviceSpecs = '#unsupported';
+	}
+	showFox();
+	setTimeout(function(){showSpecs(deviceSpecs);}, 15000);	
+	setTimeout(function(){changeSlide();},35000);
 }
-
 
 function showFox(){
         var foxy = $("#foxy");
