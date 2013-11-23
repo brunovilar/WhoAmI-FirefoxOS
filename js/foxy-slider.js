@@ -8,21 +8,31 @@ function changeSlide(){
 	} else {
 		deviceSpecs = '#unsupported';
 	}
-	showFox();
+
+	$("#lgSpecs").css("display", "none");
+	$("#alcatelSpecs").css("display", "none");
+	$("#unsupported").css("display", "none");
+
+	showFox(deviceSpecs);
 	setTimeout(function(){showSpecs(deviceSpecs);}, 15000);	
 	setTimeout(function(){changeSlide();},35000);
 }
 
-function showFox(){
+function showFox(deviceSpecs){
         var foxy = $("#foxy");
-        var specs = $("#specs");
+        var specs = $("#specs");	
+        var deviceSpecs = $(deviceSpecs);	
         foxy.css("left", "50px");
         specs.css("left", "-500px");
+        deviceSpecs.css("display", "none");
 }
 
 function showSpecs(deviceSpecs){
         var foxy = $("#foxy");
-        var specs = $(deviceSpecs);
+        var specs = $("#specs");	
+        var deviceSpecs = $(deviceSpecs);	
+
         foxy.css("left", "-500px");
         specs.css("left", "0px");
+        deviceSpecs.css("display", "");
 }
