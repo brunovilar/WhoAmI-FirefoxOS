@@ -24,6 +24,13 @@ If you care about the Open Web and Open Plataforms, you are one of us. Please,fe
 
 This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+###Special Thanks
+
+Thanks to
+
+- Bruno Vilar for testing the app and contributing with ideas to make it better.
+- Luigui Delyer for helping with the design and contributing with ideas too.
+
 
 
 
