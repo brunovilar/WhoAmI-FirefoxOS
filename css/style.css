@@ -1,8 +1,9 @@
 .background{
-  height: 480px;
-  width: 320px;
-  background: url('../images/background.jpg') 0 0 no-repeat;
-  position: absolute;
+	height: 480px;
+	width: 320px;
+	background: url('../images/background.jpg') 0 0 no-repeat;
+	position: absolute;
+	margin: -10px 0px 0px -10px;
 }
 
 #specs{
