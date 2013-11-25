@@ -24,7 +24,7 @@ Support for new devices will be added as they are released. Feel free to contrib
 
 ##Contribute to us
 
-If you care about the Open Web and Open Plataforms, you are one of us. Please,feel free to fork and PR your changes. We'll be glad to update and sharpen this app.
+If you care about the Open Web and Open Plataforms, you are one of us. Please, feel free to fork and PR your changes. We'll be glad to update and sharpen this app.
 
 ## L10N this app!
 
@@ -39,13 +39,13 @@ This app uses gaia's localizing library known as webl10n (Thanks Fabien Cazenave
     	general.specification = Especificaciones   
 
 
-
 ###Step 2
 	- Find the file locales.ini, inside the locales folder.
 	- Edit the file and include an import rule, like the following @import url(your language ISO-639-1 code here.properties)
 
+###Step 3
 
-
+If you made to here, Thank you very much! If you know how to use github, please send us a pull request. If not, you can email us your translation and we'll add it to the app.
 
 ##License
 
