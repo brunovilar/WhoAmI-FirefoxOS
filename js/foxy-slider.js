@@ -13,7 +13,7 @@ function changeSlide(){
   $("#unsupported").css("display", "none");
 
   showFox(deviceSpecs);
-  setTimeout(function(){showSpecs(deviceSpecs);}, 150);  
+  setTimeout(function(){showSpecs(deviceSpecs);}, 15000);  
   setTimeout(function(){changeSlide();},35000);
 }
 
