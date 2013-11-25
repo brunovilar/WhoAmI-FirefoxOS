@@ -42,6 +42,7 @@ This app uses gaia's localizing library known as webl10n (Thanks Fabien Cazenave
 ###Step 2
 	- Find the file locales.ini, inside the locales folder.
 	- Edit the file and include an import rule, like the following @import url(your language ISO-639-1 code here.properties)
+    - Above the import rule, include the language iso code inside square brackets. Like [en-US], [pt-BR], [es] etc.
 
 ###Step 3
 
