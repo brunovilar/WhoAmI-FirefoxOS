@@ -12,6 +12,7 @@ function changeSlide(){
 
   $("#lgSpecs").css("display", "none");
   $("#alcatelSpecs").css("display", "none");
+  $("#zteSpecs").css("display", "none");
   $("#unsupported").css("display", "none");
 
   showFox(deviceSpecs);
