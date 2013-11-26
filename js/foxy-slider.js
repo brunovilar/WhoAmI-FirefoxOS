@@ -4,6 +4,8 @@ function changeSlide(){
     deviceSpecs = '#lgSpecs';
   } else if(navigator.userAgent.indexOf("ALCATEL ONE TOUCH 4012")>=0)  {
     deviceSpecs = '#alcatelSpecs';
+  } else if(navigator.userAgent.indexOf("ZTEOPEN")>=0) {
+	deviceSpecs = '#zteSpecs';
   } else {
     deviceSpecs = '#unsupported';
   }
