@@ -14,6 +14,7 @@ http://marcussaad.com/whoami/foxy.html
 
 - Alcatel One Touch Fire
 - LG Fireweb
+- ZTE Open
 
 Support for new devices will be added as they are released. Feel free to contribute to us.
 
