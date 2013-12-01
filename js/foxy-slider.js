@@ -10,20 +10,19 @@ function changeSlide(){
     deviceSpecs = '#unsupported';
   }
 
-  $("#lgSpecs").css("display", "none");
-  $("#alcatelSpecs").css("display", "none");
-  $("#zteSpecs").css("display", "none");
-  $("#unsupported").css("display", "none");
-
   showFox(deviceSpecs);
-  setTimeout(function(){showSpecs(deviceSpecs);}, 15000);  
-  setTimeout(function(){changeSlide();},35000);
+  setInterval(function(){internalChange(deviceSpecs);}, 50000);
+}
+
+function internalChange(deviceSpecs){
+  showFox(deviceSpecs);
+  setTimeout(function(){showSpecs(deviceSpecs);}, 15000);
 }
 
 function showFox(deviceSpecs){
   var foxy = $("#foxy");
   var specs = $("#specs");  
-  var deviceSpecs = $(deviceSpecs);  
+  var deviceSpecs = $(deviceSpecs);
   foxy.css("left", "50px");
   specs.css("left", "-500px");
   deviceSpecs.css("display", "none");
@@ -36,5 +35,5 @@ function showSpecs(deviceSpecs){
 
   foxy.css("left", "-500px");
   specs.css("left", "0px");
-  deviceSpecs.css("display", "");
+  deviceSpecs.css("display", "block");
 }
