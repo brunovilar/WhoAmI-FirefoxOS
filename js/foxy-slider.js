@@ -1,4 +1,5 @@
 function changeSlide(){
+  navigator.requestWakeLock('screen');
   var deviceSpecs
   if(navigator.userAgent.indexOf("LG-D300")>=0){
     deviceSpecs = '#lgSpecs';
